@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#fcf7f7;
+    min-width:1200px;
+}
+.top_content{
+    width:100%;
+    height:220px;
+    background:#2c2e30;
+    position:relative;
+}
+.content{
+    width:1160px;
+    height:150px;
+    position:absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+    margin-top:45px;
+    color:#fff;
+}
+.span_left{
+    float:left;
+}
+.span_left span:nth-child(1){
+    display:block;
+    line-height:30px;
+}
+.logo{
+    width:80px;
+    height:54px;
+    background:url(../images/index/logo.png) no-repeat;
+    display:inline-block;
+}
+.team{
+    margin-left:10px;
+}
+.top_list{
+    width:590px;
+    height:54px;
+    line-height:54px;
+    position: absolute;
+    top: 110px;
+    left: -11px;
+}
+.top_list span:nth-child(1){
+    width:65px;
+}
+.top_list span{
+    width:110px;
+    height:54px;
+    font-size:22px;
+    color:#fff;
+    float:left;
+    list-style:none;
+    text-align:center;
+    cursor:pointer;
+}
+.active{
+    color:#ff9000;
+}
+.top_right{
+    width:115px;
+    height:54px;
+    line-height:54px;
+    position: absolute;
+    top: 110px;
+    right:0px;
+}
+.top_right span:nth-child(1){
+    width:20px;
+    height:27px;
+    display:inline-block;
+    background:url(../images/WTP/me.png) no-repeat;
+    cursor:pointer;
+}
+.top_right span:nth-child(2){
+    width:26px;
+    height:27px;
+    display:inline-block;
+    background:url(../images/WTP/erweima.png) no-repeat;
+    left:0px;
+    margin-left:15px;
+    cursor:pointer;
+}
+.top_right span:nth-child(3){
+    width:27px;
+    height:27px;
+    display:inline-block;
+    background:url(../images/WTP/search.png) no-repeat;
+    margin-left:15px;
+    cursor:pointer;
+}
+.content_main{
+    width:1200px;
+    height:auto;
+    left:0px;
+    right:0px;
+    margin:auto;
+    margin-top:25px;
+    background:#fcf7f7;
+}
+.content_main_top{
+    width:380px;
+    height:150px;
+}
+.content_main_nav{
+    width:100%;
+    height:150px;
+    position:relative;
+}
+.img1{
+    background:url(../images/job-notes/job1.png) no-repeat;
+    background-size:100% 100%;
+    float:left;
+}
+.img2{
+    background:url(../images/job-notes/job2.png) no-repeat;
+    background-size:100% 100%;
+    position:absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+.img3{
+    background:url(../images/job-notes/job3.png) no-repeat;
+    background-size:100% 100%;
+    float:right;
+}
+.img_p1{
+    widows: 100%;
+    height:20px;
+    font-size: 12px;
+    color:#fff;
+    text-align: center;
+    padding-top:30px;
+}
+.img_p2{
+    width: 100%;
+    height:20px;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+    padding-top:5.5px;
+}
+.img_p3{
+    width:80px;
+    height:28px;
+    font-size:12px;
+    color:#fff;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 40px;
+    border:1px solid #fff;
+    left:0px;
+    right:0px;
+    margin:auto;
+    margin-top:10px;
+}
+.main{
+    widows:1200px;
+    height:auto;
+    position: relative;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+.main_left{
+    width:878px;
+}
+.share{
+    height: 210px;
+    width:878px;
+    background: #fff;
+    margin-top:20px;
+}
+
+
+
+
+
+/*footer开始*/
+.footer{
+    width:100%;
+    height:140px;
+    background:#2c2e30;
+    position:relative;
+}
+.footer_content{
+    width:870px;
+    height:80px;
+    position:absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+    padding-top:30px;
+    color:#fff;
+}
+.company{
+    float:left;
+    width:263px;
+}
+.renrun_logo{
+    width:154px;
+    height:40px;
+    display:inline-block;
+    background:url(../images/index/renrun_logo.png);
+}
+.this_logo{
+    width:54px;
+    height:38px;
+    display:inline-block;
+    background:#ff9000;
+    text-align:center;
+    line-height:38px;
+    font-size:12.33px;
+    color:#fff;
+    margin-right:40px;
+    float:right;
+}
+.friendly_link{
+    float:right;
+    font-size:14px;
+}
+.friendly_link p {
+    line-height:30px;
+}
+.friendly_link p span{
+    width:95px;
+    display:inline-block;
+    text-align:justify;
+    cursor:pointer;
+}
