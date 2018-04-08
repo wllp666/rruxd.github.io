@@ -70,6 +70,11 @@ body{
     float:left;
     list-style:none;
     text-align:center;
+    cursor: pointer;
+}
+.top_list span:hover{
+    color:#ff9600;
+    border-bottom:4px solid #ff9600;
 }
 .active{
     color:#ff9600;
@@ -193,4 +198,7 @@ body{
     display:inline-block;
     text-align:justify;
     cursor:pointer;
+}
+.friendly_link p span:hover{
+    color:#ff9600;
 }

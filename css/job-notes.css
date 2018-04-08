@@ -159,6 +159,7 @@ body{
     right:0px;
     margin:auto;
     margin-top:10px;
+    border:1px solid #f8f8f9;
     cursor: pointer;
 }
 .main{
@@ -392,6 +393,7 @@ body{
 }
 .page_down{
     width:100px;
+
     height: 32px;
     line-height: 32px;
     text-align: center;
@@ -403,13 +405,6 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
-
-
-
-
-
-
-
 /*footer开始*/
 .footer{
     width:100%;
@@ -461,4 +456,7 @@ body{
     display:inline-block;
     text-align:justify;
     cursor:pointer;
+}
+.friendly_link p span:hover{
+    color:#ff9600;
 }
